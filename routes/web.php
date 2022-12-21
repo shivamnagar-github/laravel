@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\EmpController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -34,5 +35,13 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::get('/newpage', function(){
+    echo"This is a new page";
+});
+
+Route::get('employees/create', [EmpController::class, 'create'])->name('employee.create');
+
+Route::post('employees', [EmpController::class, 'store'])->name('employee.store');
 
 require __DIR__.'/auth.php';

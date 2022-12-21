@@ -1270,17 +1270,17 @@
         },
         {
             "name": "laravel/breeze",
-            "version": "v1.16.0",
-            "version_normalized": "1.16.0.0",
+            "version": "v1.16.1",
+            "version_normalized": "1.16.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/breeze.git",
-                "reference": "c9b85824c38810ef1afad80d8e8f195e28583972"
+                "reference": "9f4fc1355aa579ac0b69d78df492c3dfb00e4c29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/breeze/zipball/c9b85824c38810ef1afad80d8e8f195e28583972",
-                "reference": "c9b85824c38810ef1afad80d8e8f195e28583972",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/9f4fc1355aa579ac0b69d78df492c3dfb00e4c29",
+                "reference": "9f4fc1355aa579ac0b69d78df492c3dfb00e4c29",
                 "shasum": ""
             },
             "require": {
@@ -1293,7 +1293,7 @@
             "conflict": {
                 "laravel/framework": "<9.37.0"
             },
-            "time": "2022-12-15T14:58:32+00:00",
+            "time": "2022-12-19T08:41:25+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
